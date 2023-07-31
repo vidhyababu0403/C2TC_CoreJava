@@ -1,6 +1,6 @@
-package com.cg.day2;
+package com.cg.day5;
 
-import com.cg.day2.car.cycle.scooty;
+import com.cg.day5.car.cycle.scooty;
 
 public class multilevel {
 

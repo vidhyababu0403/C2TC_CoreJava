@@ -1,4 +1,4 @@
-package com.cg.day2;
+package com.cg.day5;
 class car{
 	int a ;
  void print() {

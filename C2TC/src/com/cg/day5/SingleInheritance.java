@@ -1,4 +1,4 @@
-package com.cg.day2;
+package com.cg.day5;
 
 public class SingleInheritance {
 
