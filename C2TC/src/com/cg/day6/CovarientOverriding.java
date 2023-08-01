@@ -1,18 +1,31 @@
 package com.cg.day6;
-class color{
-	protected color getcolor() {
-		color c=new color();
-		{
-			return c;
+	class ColorCovariant{
+		 ColorCovariant getColor() {
+	     System.out.println("Color Covatiant Class");
+	     ColorCovariant c = new ColorCovariant();
+		 return c;
 		}
 	}
-}
-public class CovarientOverriding {
+	class RedCovariant extends ColorCovariant{
+			 RedCovariant getColor() {
+			 System.out.println("Red Covariant Class");
+			 RedCovariant r = new RedCovariant();
+			 return r;
+			
+			 }
+			}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		c.color();
 
+	public class CovarientOverriding {
+		public static void main(String []args) {
+			ColorCovariant c = new ColorCovariant();
+			RedCovariant r = new RedCovariant();
+			c.getColor();
+			r.getColor();
+			
+			
+		}
 	}
 
-}
+
+
